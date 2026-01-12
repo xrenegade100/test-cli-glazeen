@@ -6,15 +6,17 @@
       "key": "project_name",
       "type": "text",
       "message": "Insert your Project Name:",
-      "default": "new-nextjs-app-custom"
+      "default": "new-nextjs-app"
     },
     {
       "key": "project_description",
       "type": "text",
+      "message": "Insert a brief description of your project:",
       "default": "new nextjs app"
     },
     {
       "key": "docker_port",
+      "type": "text",
       "message": "On which port do you want to expose the Docker app?",
       "default": "3000"
     }
